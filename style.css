@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(217, 208, 250);
+  background: linear-gradient(
+    90deg,
+    rgba(217, 208, 250, 1) 24%,
+    rgba(128, 109, 250, 1) 63%
+  );
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  color: #120347;
+  font-size: 16px;
+}
+main {
+  margin: 30px auto;
+  cursor: default;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 300;
+}
+.container {
+  border: 2px solid #120347;
+  border-radius: 10px;
+  margin: 70px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 700px;
+}
+.note {
+  display: flex;
+  margin: 20px;
+  font-size: 20px;
+  justify-content: space-between;
+}
+input {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #c7bee9;
+  padding: 5px;
+  font-family: inherit;
+}
+.calculate {
+  text-transform: uppercase;
+  background: #120347;
+  color: #f4f2fa;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: inherit;
+  border: 1px solid #120347;
+}
+h3 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.container2 {
+  display: flex;
+  margin: 30px auto;
+  justify-content: space-between;
+  width: 1000px;
+  padding: 10px;
+}
+.note2 {
+  text-align: left;
+  height: 100px;
+  width: 200px;
+  line-height: 1.5;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}

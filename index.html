@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>Simple Loan Calculator</h1>
+      <p>
+        This helps determine estimated payments for loans, interest and the
+        terms
+      </p>
+      <form id="loan-form">
+      <div class="container">
+        <div class="note loan-amount">
+          <p>Loan Amount</p>
+          <div>
+            <span class="input-group">$</span>
+            <input id="amount" type="number" placeholder="Amount" />
+          </div>
+        </div>
+        <div class="note years">
+          <p>Number Of Years</p>
+          <input id="years" type="number" placeholder="Years to pay" />
+        </div>
+        <div class="note interest_rate">
+          <p>Interest Rate</p>
+          <div>
+            <span class="input-group">%</span>
+            <input id="interest" type="number" placeholder="Interest" />
+          </div>
+        </div>
+        <input class="calculate" type="submit" value="Calculate" />
+      </div>
+      <h3>Results</h3>
+      <div class="container2">
+        <div class="note2 payments">
+          <span>Monthly Payment</span>
+          <input
+            class="controls"
+            type="number"
+            id="monthly-payments"
+            placeholder="Payments"
+            disabled
+          />
+        </div>
+        <div class="note2">
+          <span>Total Interest</span>
+          <input
+          class="controls"
+          type="number"
+          id="total-interests"
+          placeholder="Interests"
+          disabled
+        />
+        </div>
+        <div class="note2">
+          <span>Total Amount</span>
+          <input
+          class="controls"
+          type="number"
+          id="total-amounts"
+          placeholder="Amount"
+          disabled
+        />
+        </div>
+      </div>
+    </form>
+      <script src="main.js"></script>
+    </main>
+  </body>
+</html>
