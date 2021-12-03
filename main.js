@@ -27,15 +27,4 @@ function calculateResults(e) {
   } else {
     console.log("please check your numbers and try again");
   }
-
-  function showError(error) {
-    const errorDiv = document.createElement("div");
-
-    const card = document.querySelector(".card");
-    const heading = document.querySelector(".headings");
-
-    errorDiv.className = "alert alert-danger";
-    errorDiv.appendChild(document.createTextNode(error));
-    card.insertBefore(errorDiv, heading);
-  }
 }

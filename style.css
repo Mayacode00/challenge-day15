@@ -73,5 +73,49 @@ h3 {
   line-height: 1.5;
   padding: 10px;
   font-size: 20px;
-  border-radius: 10px;
+}
+@media screen and (max-width: 780px) {
+  main {
+    overflow-x: hidden;
+  }
+  .container {
+    margin: 100px auto;
+  }
+  .container2 {
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  input {
+    height: 35px;
+    width: 200px;
+  }
+  .calculate {
+    margin: 10px auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .container {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 450px) {
+  body {
+    font-size: 12px;
+  }
+  .container {
+    width: 300px;
+  }
+  .note {
+    flex-direction: column;
+    line-height: 1.8;
+  }
+  #years {
+    transform: translateX(28px);
+  }
 }
